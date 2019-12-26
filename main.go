@@ -5,6 +5,7 @@ import (
 	"net/http"
 )
 
+// main is
 func main() {
 	http.HandleFunc("/", index)
 	http.ListenAndServe(":80", nil)
